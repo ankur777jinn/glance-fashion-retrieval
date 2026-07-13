@@ -1,0 +1,26 @@
+# Glance ML Internship Assignment - Multimodal Fashion & Context Retrieval
+# Core ML
+torch>=2.0.0
+torchvision>=0.15.0
+open-clip-torch>=2.24.0
+transformers>=4.40.0
+
+# Vector Search
+faiss-cpu>=1.7.4
+
+# Image Processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Data & Utils
+tqdm>=4.65.0
+pandas>=2.0.0
+
+# Demo UI
+gradio>=4.0.0
+
+# Dataset Download
+requests>=2.31.0
+
+# Visualization
+matplotlib>=3.7.0
