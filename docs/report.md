@@ -168,7 +168,7 @@ Several approaches to improve precision, ordered by impact:
 
 ## 6. Codebase
 
-**GitHub Repository:** [Link to be added]
+**GitHub Repository:** [https://github.com/ankur777jinn/glance-fashion-retrieval]
 
 The codebase follows a modular structure with clear separation between:
 - **Data layer** (`data/`) - images and pre-computed indices
