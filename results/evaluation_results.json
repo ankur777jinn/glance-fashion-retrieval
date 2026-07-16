@@ -1,0 +1,677 @@
+{
+  "timestamp": "2026-07-14T00:57:50.349277",
+  "top_k": 5,
+  "queries": [
+    {
+      "id": 1,
+      "type": "Attribute Specific",
+      "query": "A bright yellow raincoat for a rainy day",
+      "decomposition": {
+        "original_query": "A bright yellow raincoat for a rainy day",
+        "clothing_terms": [
+          "raincoat"
+        ],
+        "color_terms": [
+          "bright yellow"
+        ],
+        "environment_terms": [
+          "rainy day"
+        ],
+        "style_terms": [],
+        "sub_phrases": [
+          "A bright yellow raincoat for a rainy day",
+          "A bright yellow raincoat",
+          "a rainy day"
+        ]
+      },
+      "our_results": [
+        {
+          "rank": 1,
+          "final_score": 0.2756,
+          "vector_score": 0.1308,
+          "attribute_score": 0.6667,
+          "subphrase_score": 0.0776,
+          "image": "fashion_00448.jpg",
+          "clothing_type": "raincoat",
+          "clothing_color": "yellow",
+          "environment": "rainy day",
+          "style": "vintage"
+        },
+        {
+          "rank": 2,
+          "final_score": 0.1117,
+          "vector_score": 0.0164,
+          "attribute_score": 0.3333,
+          "subphrase_score": 0.0171,
+          "image": "fashion_00975.jpg",
+          "clothing_type": "windbreaker",
+          "clothing_color": "black",
+          "environment": "rainy day",
+          "style": "streetwear"
+        },
+        {
+          "rank": 3,
+          "final_score": 0.1102,
+          "vector_score": 0.016,
+          "attribute_score": 0.3333,
+          "subphrase_score": 0.0127,
+          "image": "fashion_00127.jpg",
+          "clothing_type": "belt",
+          "clothing_color": "red",
+          "environment": "rainy day",
+          "style": "eco-friendly"
+        },
+        {
+          "rank": 4,
+          "final_score": 0.0579,
+          "vector_score": 0.1095,
+          "attribute_score": 0.0,
+          "subphrase_score": 0.047,
+          "image": "fashion_00815.jpg",
+          "clothing_type": "handbag",
+          "clothing_color": "violet",
+          "environment": "studio",
+          "style": "sporty"
+        },
+        {
+          "rank": 5,
+          "final_score": 0.0501,
+          "vector_score": 0.0787,
+          "attribute_score": 0.0,
+          "subphrase_score": 0.0622,
+          "image": "fashion_00745.jpg",
+          "clothing_type": "cape",
+          "clothing_color": "yellow",
+          "environment": "park",
+          "style": "sporty"
+        }
+      ],
+      "baseline_results": [
+        {
+          "rank": 1,
+          "similarity": 0.1308,
+          "image": "fashion_00448.jpg",
+          "clothing_type": "raincoat",
+          "clothing_color": "yellow",
+          "environment": "rainy day",
+          "style": "vintage"
+        },
+        {
+          "rank": 2,
+          "similarity": 0.1095,
+          "image": "fashion_00815.jpg",
+          "clothing_type": "handbag",
+          "clothing_color": "violet",
+          "environment": "studio",
+          "style": "sporty"
+        },
+        {
+          "rank": 3,
+          "similarity": 0.0787,
+          "image": "fashion_00745.jpg",
+          "clothing_type": "cape",
+          "clothing_color": "yellow",
+          "environment": "park",
+          "style": "sporty"
+        },
+        {
+          "rank": 4,
+          "similarity": 0.0617,
+          "image": "fashion_00621.jpg",
+          "clothing_type": "mini dress",
+          "clothing_color": "yellow",
+          "environment": "street",
+          "style": "glamorous"
+        },
+        {
+          "rank": 5,
+          "similarity": 0.0614,
+          "image": "fashion_00032.jpg",
+          "clothing_type": "mini dress",
+          "clothing_color": "yellow",
+          "environment": "outdoor setting",
+          "style": "retro"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Contextual/Place",
+      "query": "A red tie and a white shirt in a formal setting",
+      "decomposition": {
+        "original_query": "A red tie and a white shirt in a formal setting",
+        "clothing_terms": [
+          "shirt",
+          "tie"
+        ],
+        "color_terms": [
+          "white",
+          "red"
+        ],
+        "environment_terms": [
+          "formal setting"
+        ],
+        "style_terms": [
+          "formal"
+        ],
+        "sub_phrases": [
+          "A red tie and a white shirt in a formal setting",
+          "A red tie",
+          "a white shirt",
+          "a formal setting"
+        ]
+      },
+      "our_results": [
+        {
+          "rank": 1,
+          "final_score": 0.2514,
+          "vector_score": 0.038,
+          "attribute_score": 0.75,
+          "subphrase_score": 0.0373,
+          "image": "fashion_00000.jpg",
+          "clothing_type": "bow tie",
+          "clothing_color": "navy",
+          "environment": "formal setting",
+          "style": "formal"
+        },
+        {
+          "rank": 2,
+          "final_score": 0.1731,
+          "vector_score": 0.0358,
+          "attribute_score": 0.5,
+          "subphrase_score": 0.0292,
+          "image": "fashion_00240.jpg",
+          "clothing_type": "tuxedo",
+          "clothing_color": "navy",
+          "environment": "formal setting",
+          "style": "formal"
+        },
+        {
+          "rank": 3,
+          "final_score": 0.1633,
+          "vector_score": 0.0253,
+          "attribute_score": 0.5,
+          "subphrase_score": 0.0107,
+          "image": "fashion_00940.jpg",
+          "clothing_type": "trousers",
+          "clothing_color": "white",
+          "environment": "casual setting",
+          "style": "formal"
+        },
+        {
+          "rank": 4,
+          "final_score": 0.1616,
+          "vector_score": 0.0209,
+          "attribute_score": 0.5,
+          "subphrase_score": 0.0108,
+          "image": "fashion_00836.jpg",
+          "clothing_type": "blazer",
+          "clothing_color": "ivory",
+          "environment": "formal setting",
+          "style": "formal"
+        },
+        {
+          "rank": 5,
+          "final_score": 0.1579,
+          "vector_score": 0.014,
+          "attribute_score": 0.5,
+          "subphrase_score": 0.0075,
+          "image": "fashion_00384.jpg",
+          "clothing_type": "skirt",
+          "clothing_color": "red",
+          "environment": "formal setting",
+          "style": "vintage"
+        }
+      ],
+      "baseline_results": [
+        {
+          "rank": 1,
+          "similarity": 0.077,
+          "image": "fashion_00138.jpg",
+          "clothing_type": "skirt",
+          "clothing_color": "red",
+          "environment": "casual setting",
+          "style": "western"
+        },
+        {
+          "rank": 2,
+          "similarity": 0.0522,
+          "image": "fashion_00081.jpg",
+          "clothing_type": "coat",
+          "clothing_color": "red",
+          "environment": "street",
+          "style": "minimalist"
+        },
+        {
+          "rank": 3,
+          "similarity": 0.0441,
+          "image": "fashion_00313.jpg",
+          "clothing_type": "suit",
+          "clothing_color": "ivory",
+          "environment": "red carpet",
+          "style": "glamorous"
+        },
+        {
+          "rank": 4,
+          "similarity": 0.0426,
+          "image": "fashion_00946.jpg",
+          "clothing_type": "heels",
+          "clothing_color": "wine",
+          "environment": "red carpet",
+          "style": "glamorous"
+        },
+        {
+          "rank": 5,
+          "similarity": 0.038,
+          "image": "fashion_00000.jpg",
+          "clothing_type": "bow tie",
+          "clothing_color": "navy",
+          "environment": "formal setting",
+          "style": "formal"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Complex Semantic",
+      "query": "Casual streetwear outfit with sneakers and a hoodie",
+      "decomposition": {
+        "original_query": "Casual streetwear outfit with sneakers and a hoodie",
+        "clothing_terms": [
+          "sneakers",
+          "hoodie"
+        ],
+        "color_terms": [],
+        "environment_terms": [],
+        "style_terms": [
+          "streetwear",
+          "casual"
+        ],
+        "sub_phrases": [
+          "Casual streetwear outfit with sneakers and a hoodie",
+          "Casual streetwear outfit",
+          "sneakers",
+          "a hoodie"
+        ]
+      },
+      "our_results": [
+        {
+          "rank": 1,
+          "final_score": 0.3733,
+          "vector_score": 0.1328,
+          "attribute_score": 1.0,
+          "subphrase_score": 0.0673,
+          "image": "fashion_00172.jpg",
+          "clothing_type": "hoodie",
+          "clothing_color": "baby blue",
+          "environment": "rooftop",
+          "style": "streetwear"
+        },
+        {
+          "rank": 2,
+          "final_score": 0.3579,
+          "vector_score": 0.108,
+          "attribute_score": 1.0,
+          "subphrase_score": 0.049,
+          "image": "fashion_00969.jpg",
+          "clothing_type": "hoodie",
+          "clothing_color": "dark",
+          "environment": "cold weather",
+          "style": "streetwear"
+        },
+        {
+          "rank": 3,
+          "final_score": 0.3412,
+          "vector_score": 0.0706,
+          "attribute_score": 1.0,
+          "subphrase_score": 0.0432,
+          "image": "fashion_00186.jpg",
+          "clothing_type": "hoodie",
+          "clothing_color": "black",
+          "environment": "mountain",
+          "style": "streetwear"
+        },
+        {
+          "rank": 4,
+          "final_score": 0.2162,
+          "vector_score": 0.1185,
+          "attribute_score": 0.5,
+          "subphrase_score": 0.0626,
+          "image": "fashion_00717.jpg",
+          "clothing_type": "shorts",
+          "clothing_color": "orange",
+          "environment": "rooftop",
+          "style": "streetwear"
+        },
+        {
+          "rank": 5,
+          "final_score": 0.2129,
+          "vector_score": 0.1127,
+          "attribute_score": 0.5,
+          "subphrase_score": 0.0595,
+          "image": "fashion_00258.jpg",
+          "clothing_type": "hoodie",
+          "clothing_color": "peach",
+          "environment": "garden",
+          "style": "athleisure"
+        }
+      ],
+      "baseline_results": [
+        {
+          "rank": 1,
+          "similarity": 0.1328,
+          "image": "fashion_00172.jpg",
+          "clothing_type": "hoodie",
+          "clothing_color": "baby blue",
+          "environment": "rooftop",
+          "style": "streetwear"
+        },
+        {
+          "rank": 2,
+          "similarity": 0.1185,
+          "image": "fashion_00717.jpg",
+          "clothing_type": "shorts",
+          "clothing_color": "orange",
+          "environment": "rooftop",
+          "style": "streetwear"
+        },
+        {
+          "rank": 3,
+          "similarity": 0.1138,
+          "image": "fashion_00012.jpg",
+          "clothing_type": "tracksuit",
+          "clothing_color": "black",
+          "environment": "street",
+          "style": "streetwear"
+        },
+        {
+          "rank": 4,
+          "similarity": 0.1127,
+          "image": "fashion_00258.jpg",
+          "clothing_type": "hoodie",
+          "clothing_color": "peach",
+          "environment": "garden",
+          "style": "athleisure"
+        },
+        {
+          "rank": 5,
+          "similarity": 0.108,
+          "image": "fashion_00969.jpg",
+          "clothing_type": "hoodie",
+          "clothing_color": "dark",
+          "environment": "cold weather",
+          "style": "streetwear"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Style Inference",
+      "query": "Elegant black evening gown for a gala",
+      "decomposition": {
+        "original_query": "Elegant black evening gown for a gala",
+        "clothing_terms": [
+          "evening gown"
+        ],
+        "color_terms": [
+          "black"
+        ],
+        "environment_terms": [
+          "gala"
+        ],
+        "style_terms": [
+          "elegant"
+        ],
+        "sub_phrases": [
+          "Elegant black evening gown for a gala",
+          "Elegant black evening gown",
+          "a gala"
+        ]
+      },
+      "our_results": [
+        {
+          "rank": 1,
+          "final_score": 0.3661,
+          "vector_score": 0.1085,
+          "attribute_score": 1.0,
+          "subphrase_score": 0.0756,
+          "image": "fashion_00615.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "gala",
+          "style": "elegant"
+        },
+        {
+          "rank": 2,
+          "final_score": 0.3612,
+          "vector_score": 0.1052,
+          "attribute_score": 1.0,
+          "subphrase_score": 0.0638,
+          "image": "fashion_00672.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "gala",
+          "style": "elegant"
+        },
+        {
+          "rank": 3,
+          "final_score": 0.2894,
+          "vector_score": 0.1079,
+          "attribute_score": 0.75,
+          "subphrase_score": 0.0707,
+          "image": "fashion_00474.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "gala",
+          "style": "glamorous"
+        },
+        {
+          "rank": 4,
+          "final_score": 0.2835,
+          "vector_score": 0.1031,
+          "attribute_score": 0.75,
+          "subphrase_score": 0.0576,
+          "image": "fashion_00619.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "formal setting",
+          "style": "elegant"
+        },
+        {
+          "rank": 5,
+          "final_score": 0.2829,
+          "vector_score": 0.1034,
+          "attribute_score": 0.75,
+          "subphrase_score": 0.0552,
+          "image": "fashion_00591.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "gala",
+          "style": "glamorous"
+        }
+      ],
+      "baseline_results": [
+        {
+          "rank": 1,
+          "similarity": 0.11,
+          "image": "fashion_00212.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "formal setting",
+          "style": "glamorous"
+        },
+        {
+          "rank": 2,
+          "similarity": 0.1085,
+          "image": "fashion_00615.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "gala",
+          "style": "elegant"
+        },
+        {
+          "rank": 3,
+          "similarity": 0.1079,
+          "image": "fashion_00474.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "gala",
+          "style": "glamorous"
+        },
+        {
+          "rank": 4,
+          "similarity": 0.1052,
+          "image": "fashion_00672.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "gala",
+          "style": "elegant"
+        },
+        {
+          "rank": 5,
+          "similarity": 0.1034,
+          "image": "fashion_00591.jpg",
+          "clothing_type": "evening gown",
+          "clothing_color": "black",
+          "environment": "gala",
+          "style": "glamorous"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Compositional",
+      "query": "Sporty athleisure leggings and sports bra for the gym",
+      "decomposition": {
+        "original_query": "Sporty athleisure leggings and sports bra for the gym",
+        "clothing_terms": [
+          "sports bra",
+          "leggings"
+        ],
+        "color_terms": [],
+        "environment_terms": [
+          "gym"
+        ],
+        "style_terms": [
+          "athleisure",
+          "sporty"
+        ],
+        "sub_phrases": [
+          "Sporty athleisure leggings and sports bra for the gym",
+          "Sporty athleisure leggings",
+          "sports bra",
+          "the gym"
+        ]
+      },
+      "our_results": [
+        {
+          "rank": 1,
+          "final_score": 0.242,
+          "vector_score": 0.0741,
+          "attribute_score": 0.6667,
+          "subphrase_score": 0.0412,
+          "image": "fashion_00399.jpg",
+          "clothing_type": "athletic wear",
+          "clothing_color": "light",
+          "environment": "gym",
+          "style": "sporty"
+        },
+        {
+          "rank": 2,
+          "final_score": 0.2338,
+          "vector_score": 0.0576,
+          "attribute_score": 0.6667,
+          "subphrase_score": 0.0359,
+          "image": "fashion_00201.jpg",
+          "clothing_type": "athletic wear",
+          "clothing_color": "salmon",
+          "environment": "gym",
+          "style": "sporty"
+        },
+        {
+          "rank": 3,
+          "final_score": 0.1609,
+          "vector_score": 0.1195,
+          "attribute_score": 0.3333,
+          "subphrase_score": 0.0436,
+          "image": "fashion_00315.jpg",
+          "clothing_type": "athletic wear",
+          "clothing_color": "mint",
+          "environment": "outdoor setting",
+          "style": "athleisure"
+        },
+        {
+          "rank": 4,
+          "final_score": 0.1538,
+          "vector_score": 0.0999,
+          "attribute_score": 0.3333,
+          "subphrase_score": 0.0461,
+          "image": "fashion_00357.jpg",
+          "clothing_type": "athletic wear",
+          "clothing_color": "forest green",
+          "environment": "park",
+          "style": "athleisure"
+        },
+        {
+          "rank": 5,
+          "final_score": 0.1498,
+          "vector_score": 0.0925,
+          "attribute_score": 0.3333,
+          "subphrase_score": 0.0427,
+          "image": "fashion_00179.jpg",
+          "clothing_type": "athletic wear",
+          "clothing_color": "black",
+          "environment": "studio",
+          "style": "sporty"
+        }
+      ],
+      "baseline_results": [
+        {
+          "rank": 1,
+          "similarity": 0.1195,
+          "image": "fashion_00315.jpg",
+          "clothing_type": "athletic wear",
+          "clothing_color": "mint",
+          "environment": "outdoor setting",
+          "style": "athleisure"
+        },
+        {
+          "rank": 2,
+          "similarity": 0.0999,
+          "image": "fashion_00357.jpg",
+          "clothing_type": "athletic wear",
+          "clothing_color": "forest green",
+          "environment": "park",
+          "style": "athleisure"
+        },
+        {
+          "rank": 3,
+          "similarity": 0.0925,
+          "image": "fashion_00179.jpg",
+          "clothing_type": "athletic wear",
+          "clothing_color": "black",
+          "environment": "studio",
+          "style": "sporty"
+        },
+        {
+          "rank": 4,
+          "similarity": 0.0877,
+          "image": "fashion_00392.jpg",
+          "clothing_type": "athletic wear",
+          "clothing_color": "white",
+          "environment": "yoga studio",
+          "style": "athleisure"
+        },
+        {
+          "rank": 5,
+          "similarity": 0.0791,
+          "image": "fashion_00249.jpg",
+          "clothing_type": "scarf",
+          "clothing_color": "black",
+          "environment": "beach",
+          "style": "athleisure"
+        }
+      ]
+    }
+  ]
+}
